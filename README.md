@@ -51,5 +51,5 @@
 
 本项目使用的数据集来自Kaggle"Home Credit Default Risk"。由于文件大小限制，数据集未包含在本仓库中。您可以从以下链接下载原始数据：
 
-[https://www.kaggle.com/c/credit-card-fraud-detection](https://www.kaggle.com/c/credit-card-fraud-detection)
+https://www.kaggle.com/c/home-credit-default-risk
 
