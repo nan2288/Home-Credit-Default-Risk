@@ -19,6 +19,8 @@
     *   **学历与收入类型**: 学历较低、收入来源不稳定的客群（如Working Class）违约率更高。
     *   **外部征信评分 (`EXT_SOURCE`)**: 三个外部评分均与违约率呈现强负相关，是区分好坏客户的顶级特征。
 
+<img width="990" height="588" alt="Image" src="https://github.com/user-attachments/assets/9860c879-98b6-4cab-a877-4e5eb23301f8" />
+
 ### 1.2 特征工程 (Feature Engineering)
 为提升模型性能，本项目进行了两类核心的特征衍生：
 *   **金融比率特征**: 基于业务理解，创造了如 `CREDIT_INCOME_PERCENT` (负债收入比), `ANNUITY_INCOME_PERCENT` (月供收入比), `CREDIT_TERM` (还款期限) 等强业务相关性特征。
