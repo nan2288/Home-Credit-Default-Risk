@@ -19,9 +19,6 @@
     *   **学历与收入类型**: 学历较低、收入来源不稳定的客群（如Working Class）违约率更高。
     *   **外部征信评分 (`EXT_SOURCE`)**: 三个外部评分均与违约率呈现强负相关，是区分好坏客户的顶级特征。
 
-![Age Distribution](https-placeholder-for-your-age-distribution-image.png)
-*(注：你可以在GitHub上上传图片并替换此处的链接，以获得更好的视觉效果)*
-
 ### 1.2 特征工程 (Feature Engineering)
 为提升模型性能，本项目进行了两类核心的特征衍生：
 *   **金融比率特征**: 基于业务理解，创造了如 `CREDIT_INCOME_PERCENT` (负债收入比), `ANNUITY_INCOME_PERCENT` (月供收入比), `CREDIT_TERM` (还款期限) 等强业务相关性特征。
@@ -31,9 +28,6 @@
 *   **模型选择**: 选用业界领先的 **LightGBM** 模型，以其高效率和高精度应对海量特征。
 *   **验证策略**: 采用 **5折交叉验证 (5-fold Cross-Validation)**，确保模型性能评估的稳健性和可靠性。
 *   **模型性能**: 最终在交叉验证中取得了 **平均 AUC = 0.736** 的优异成绩。
-
-![Feature Importance](https-placeholder-for-your-feature-importance-image.png)
-*(注：同样，建议上传特征重要性图并替换链接)*
 
 ## 2. 关键洞察与商业价值
 模型的特征重要性排序揭示了决定信用风险的关键因素：
