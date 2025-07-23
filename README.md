@@ -31,6 +31,8 @@
 *   **验证策略**: 采用 **5折交叉验证 (5-fold Cross-Validation)**，确保模型性能评估的稳健性和可靠性。
 *   **模型性能**: 最终在交叉验证中取得了 **平均 AUC = 0.736** 的优异成绩。
 
+<img width="1547" height="722" alt="Image" src="https://github.com/user-attachments/assets/a6d7e106-1e89-4150-81c7-88103637cbf0" />
+
 ## 2. 关键洞察与商业价值
 模型的特征重要性排序揭示了决定信用风险的关键因素：
 1.  **还款能力与压力 (`CREDIT_TERM`, `ANNUITY_INCOME_PERCENT`)**: 客户的债务负担是其风险的核心。
